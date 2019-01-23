@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2014 Peter Gregus (C3C076@xda)
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">Avanzamento del download nella barra di stato</string>
+    <string name="app_desc">Visualizza una barra di avanzamento nella barra di stato per i download tramite Android Download Manager</string>
+    
+    <string name="module_not_active">Modulo inattivo, utilizzare Xposed Installer per attivare il modulo e riavviare il dispositivo.</string>
+
+    <!-- Options -->
+    <string name="pref_cat_options_title">Opzioni</string>
+    
+    <string name="pref_mode_title">Modalità</string>
+    <string name="sb_download_progress_off">Disattivato</string>
+    <string name="sb_download_progress_top">Bordo superiore</string>
+    <string name="sb_download_progress_bottom">Bordo inferiore</string>
+    
+    <string name="pref_edge_margin_title">Margine del bordo</string>
+
+    <!-- About -->
+    <string name="pref_cat_about_title">A riguardo</string>
+    <string name="pref_about_summary">Sviluppato da C3C076 @ XDA. Tocca per accedere al soggetto ufficiale.</string>
+    <string name="pref_about_donate_title">Donare allo sviluppatore</string>
+    <string name="pref_about_donate_waiting">In attesa dei servizi di fatturazione di Google ...</string>
+    <string name="pref_about_donate_error">Errore nei contatti dei servizi di fatturazione di Google</string>
+    <string name="pref_about_donate_no_items">Nessun elemento di donazione attraverso l'applicazione attualmente disponibile.</string>
+    <string name="pref_about_donate_summary">Tocca per avviare la donazione tramite l'app.</string>
+    <string name="donate_transaction_error">La transazione non è riuscita.</string>
+    <string name="donate_transaction_ok">La transazione è andata a buon fine. Grazie mille per la tua donazione!</string>
+    
+    <!-- Hide launcher icon -->
+    <string name="pref_hide_launcher_icon_title">Nascondi icona</string>
+    <string name="pref_hide_launcher_icon_summary">Potrebbe richiedere il riavvio del programma</string>
+
+    <!-- Progress bar color -->
+    <string name="dialog_color_picker">Definire un colore</string>
+    <string name="press_color_to_apply">Tocca un colore</string>
+    <string name="pref_color_title">Colori</string>    
+
+    <!-- God mode -->
+    <string name="pref_god_mode_title">Mode \"god\"</string>
+    <string name="pref_god_mode_summary">Tentativo di visualizzare una barra di avanzamento per qualsiasi applicazione con una notifica che contiene una barra di avanzamento</string>
+
+    <!-- Animated -->
+    <string name="pref_animated_title">Animato</string>
+
+    <!-- Centered -->
+    <string name="pref_centered_title">Centrato</string>
+
+    <!-- Thickness -->
+    <string name="pref_thickness_title">Spessore</string>
+    
+</resources>
